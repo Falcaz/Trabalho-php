@@ -13,15 +13,12 @@
             margin: 0;
             padding: 0;
         }
-
         header {
             background-color: rgba(64, 31, 6);
             color: #fff;
-            padding: 15px;
+            padding: 30px;
             text-align: center;
-            margin-bottom: 20px;
         }
-
         nav {
             background-color: #b19274;
             padding: 10px;
@@ -37,11 +34,9 @@
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
-
         nav a:hover {
             background-color: #9a7b5f;
         }
-
         section {
             margin: 20px;
             padding: 20px;
@@ -49,10 +44,9 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
         footer {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 412px;
             padding: 10px;
             background-color: rgba(64, 31, 6);
             color: #fff;
@@ -67,13 +61,13 @@
     </header>
 
     <nav>
-        <a href="#">Início</a>
-        <a href="livros.php">Livros</a>
-        <a href="#">Autores</a>
-        <a href="#">Sobre Nós</a>
+    <a href="IndexC.php">Início</a>
+        <a href="LivrosC.php">Livros</a>
+        <a href="AutoresC.php">Autores</a>
+        <a href="SobrenosC.php">Sobre Nós</a>
     </nav>
 
-    <!-- Restante do seu conteúdo aqui -->
+    
 
     <footer>
         <p>&copy; 2023 Biblioteca Camarelo</p>

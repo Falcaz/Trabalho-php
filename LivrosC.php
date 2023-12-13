@@ -7,14 +7,8 @@
     <style>
         body {
             background-color: rgba(102, 69, 44);
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia', serif;
             color: rgba(26, 18, 11); 
-        }
-        header {
-            background-color: rgba(64, 31, 6);
-            padding: 1em;
-            text-align: center;
-            color: #FFF; /* Branco */
         }
         section {
             margin: 20px;
@@ -25,10 +19,39 @@
             margin: 10px;
             border-radius: 8px;
         }
+        header {
+            background-color: rgba(64, 31, 6);
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        nav {
+            background-color: #b19274;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #9a7b5f;
+        }
     </style>
 </head>
 <body>
     <header>
+    <nav>
+    <a href="Index.php">Início</a>
+        <a href="LivrosC.php">Livros</a>
+        <a href="AutoresC.php">Autores</a>
+        <a href="SobrenosC.php">Sobre Nós</a>
+    </nav>
         <h1>Livraria Virtual</h1>
     </header>
     <section>
@@ -46,7 +69,6 @@
             <button>Adicionar ao Carrinho</button>
         </div>
 
-        <!-- Adicione mais blocos de livro conforme necessário -->
-    </section>
+      
 </body>
 </html>
