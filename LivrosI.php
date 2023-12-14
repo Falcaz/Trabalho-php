@@ -31,7 +31,6 @@
             text-align: center;
             margin-bottom: 20px;
         }
-
         nav a {
             text-decoration: none;
             color: #fff;
@@ -47,13 +46,15 @@
 </head>
 <body>
     <header>
+    
         <h1>Livraria Virtual</h1>
     </header>
     <nav>
-        <a href="IndexC.php">Inicio</a>
-        <a href="LivrosC.php">Livros</a>
-        <a href="AutoresC.php">Autores</a>
-        <a href="SobrenosC.php">Sobre Nós</a>
+        <a href="IndexI.php">Inicio</a>
+        <a href="LivrosI.php">Livros</a>
+        <a href="AutoresI.php">Autores</a>
+        <a href="SobrenosI.php">Sobre Nós</a>
+        <a href="EstoqueI.php">Estoque</a>
     </nav>
     <section>
         <div class="livro">

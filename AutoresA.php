@@ -51,24 +51,6 @@
             margin-top: 30px;
         }
 
-        nav {
-            background-color: #b19274;
-            padding: 10px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            padding: 10px 20px;
-            margin: 0 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        nav a:hover {
-            background-color: #9a7b5f;
-        }
         footer {
             background-color: #543b33; /* Marrom escuro */
             color: #fff;
@@ -84,6 +66,25 @@
         i {
             margin-right: 5px;
         }
+        nav {
+            background-color: #b19274;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #9a7b5f;
+        }
 
     </style>
 </head>
@@ -94,15 +95,18 @@
         <p>Conheça nossos autores e suas obras inspiradoras.</p>
     </header>
     
+    
+
     <section>
         <h2>Autores em Destaque</h2>
+        
         <nav>
-        <a href="IndexC.php">Inicio</a>
-        <a href="LivrosC.php">Livros</a>
-        <a href="AutoresC.php">Autores</a>
-        <a href="SobrenosC.php">Sobre Nós</a>
+    <a href="IndexA.php">Início</a>
+        <a href="LivrosA.php">Livros</a>
+        <a href="AutoresA.php">Autores</a>
+        <a href="SobrenosA.php">Sobre Nós</a>
+        <a href="EstoqueA.php">Estoque</a>
     </nav>
-
 
         <?php
         // Array com informações dos autores

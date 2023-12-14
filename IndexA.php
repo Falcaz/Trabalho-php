@@ -61,10 +61,10 @@
     </header>
 
     <nav>
-    <a href="IndexC.php">Início</a>
-        <a href="LivrosC.php">Livros</a>
-        <a href="AutoresC.php">Autores</a>
-        <a href="SobrenosC.php">Sobre Nós</a>
+    <a href="IndexA.php">Início</a>
+        <a href="LivrosA.php">Livros</a>
+        <a href="AutoresA.php">Autores</a>
+        <a href="SobrenosA.php">Sobre Nós</a>
     </nav>
 
     

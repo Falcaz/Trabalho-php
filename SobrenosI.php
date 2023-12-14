@@ -28,14 +28,7 @@
         color: #fff;
     }
 
-    nav {
-            background-color: #b19274;
-            padding: 10px;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        nav a {
+    nav a {
             text-decoration: none;
             color: #fff;
             padding: 10px 20px;
@@ -83,14 +76,13 @@
     <header>
         <h1>Biblioteca Virtual</h1>
     </header>
-
     <nav>
-    <a href="IndexC.php">Início</a>
-        <a href="LivrosC.php">Livros</a>
-        <a href="AutoresC.php">Autores</a>
-        <a href="SobrenosC.php">Sobre Nós</a>
+    <a href="IndexI.php">Início</a>
+        <a href="LivrosI.php">Livros</a>
+        <a href="AutoresI.php">Autores</a>
+        <a href="SobrenosI.php">Sobre Nós</a>
+        <a href="EstoqueI.php">Estoque</a>
     </nav>
-
  
 
     <section class="about">
